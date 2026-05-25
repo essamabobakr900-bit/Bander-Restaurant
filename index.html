@@ -3,48 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixtcon.css" rel="stylesheet"/>
     <title>Bander Restaurant Website</title>
-    <!----bootstrap css-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <!-----style css-->
-    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="main-layout">
-    <div id="content">
-        <!---header-->
-        <header>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="full">
-                            <a href="" class="logo"> <img src="images/logo.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="full">
-                            <div class="right-header-info">
-                                <ul>
-                                    <li class="dinone">Contact us: <img style="margin-right: 15px; margin-left: 15px;" src="images/phone-icon.png" alt=""><a href="">01095588429</a></li>
-                                    <li class="dinone"> <img style="margin-right: 15px;" src="images/mail_icon.png" alt=""><a href="">bakressam27072008@gmail.com</a></li>
-                                    <li class="dinone"> <img style="margin-right: 15px;height: 21px;" src="images/location_icon.png" alt=""><a href="">Benha City</a></li>
-                                    <li><img style="margin-right: 15px;" src="images/search_icon.png" alt=""></li>
-                                    <li>
-                                        <button type="button" id="slidebarcollapse">
-                                            <img src="images/menu-icon.png" alt="">
-                                        </button>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<body>
+    <nav>
+        <div class="nav_header">
+            <div class="logo nav__logo">
+                <a href="#">Food<span>man</span></a>
             </div>
-        </header>
-
-    </div>
+            <div class="nav__menu__btn" id="nav-btn">
+                <span><i class="ri-menu-line"></i></span>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">special</a></li>
+            <li><a href="#">chef</a></li>
+            <li><a href="#">client</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="nav__btn">
+            <button class="btn"><i class="ri-shopping-bag-fill"></i></button>
+        </div>
+    </nav>
+    <section class="section__container header__container" id="home">
+        <div class="header_image">
+            <img src="images/header.png" alt="header image">
+        </div>
+        <div class="header__content">
+            <h1>Meet, Eat & Enjoy The <span>True Taste</span></h1>
+            <p class="section__description">
+                Welcome to Bander Restaurant, where great taste meets warm hospitality. We offer a carefully crafted menu inspired by fresh ingredients, rich flavors, and a passion for quality cooking. Whether you’re here for a quick bite, a family dinner, or a special celebration, our cozy atmosphere and friendly service make every visit memorable.
+From delicious appetizers to mouthwatering main courses and irresistible desserts, every dish is prepared with care to satisfy your cravings. Join us and experience food that feels like home, served with a touch of excellence.
+            </p>
+            <div class="header__btn">
+                <button class="btn">Get Started</button>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>
