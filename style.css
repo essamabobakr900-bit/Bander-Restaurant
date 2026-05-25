@@ -50,6 +50,7 @@ nav {
     isolation: isolate;
     width: 100%;
     z-index: 9;
+    
 }
 
 .nav__header {
