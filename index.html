@@ -43,22 +43,92 @@ From delicious appetizers to mouthwatering main courses and irresistible dessert
             </div>
         </div>
     </section>
+    <section class="section__container special-container" id="special">
+        <h2 class="section__header">Our Special Dish</h2>
+        <p class="section__description">
+            At Bander Restaurant, we serve delicious meals made with fresh ingredients and rich flavors. Every dish is prepared with care to give you the perfect dining experience, combining great taste, quality service, and a warm atmosphere that makes every visit special.
+        </p>
+        <div class="special-grid">
+            <div class="special-crad">
+                <img src="images/Chicken Veg Churry.png" alt="special1">
+                <h4>Checken Veg Churry</h4>
+                <p>
+                  Chicken breast, curry sauce, fresh cream, garlic, onions, butter, olive oil, mixed spices, black pepper, salt, and fresh herbs served with steamed rice or crispy vegetables.
+                </p>
+                <div class="special__ratings">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                </div>
+                <div class="special-footer">
+                    <p class="price">90L.E.</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="special-crad">
+                <img src="images/header.png" alt="special1">
+                <h4>Grilled Steak Deluxe</h4>
+                <p>
+                  Juicy grilled beef steak served with creamy mushroom sauce, roasted potatoes, and fresh vegetables.
+                </p>
+                <div class="special__ratings">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                </div>
+                <div class="special-footer">
+                    <p class="price">90L.E.</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="special-crad">
+                <img src="images/header.png" alt="special1">
+                <h4>Crispy Chicken Burger</h4>
+                <p>
+                  Crunchy fried chicken breast with melted cheese, lettuce, tomatoes, and special sauce in a toasted bun.
+                </p>
+                <div class="special__ratings">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                </div>
+                <div class="special-footer">
+                    <p class="price">120L.E.</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="special-crad">
+                <img src="images/header.png" alt="special1">
+                <h4>Seafood Pasta</h4>
+                <p>
+                 Fresh shrimp and calamari mixed with creamy garlic sauce and perfectly cooked pasta topped with parmesan cheese.
+                </p>
+                <div class="special__ratings">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                </div>
+                <div class="special-footer">
+                    <p class="price">130L.E.</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
     <script>
-const menuBtn = document.getElementById('menu-btn');
+const menuBtn = document.getElementById('nav-btn');
 const navLinks = document.getElementById('nav-links');
 
-// toggle menu
 menuBtn.addEventListener('click', () => {
     navLinks.classList.toggle('open');
-});
-
-// navbar scroll effect
-window.addEventListener('scroll', () => {
-    if (window.scrollY > 0) {
-        document.querySelector('nav').classList.add('scrolled');
-    } else {
-        document.querySelector('nav').classList.remove('scrolled');
-    }
 });
 </script>
     
