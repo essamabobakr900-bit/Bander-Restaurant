@@ -319,3 +319,37 @@ nav {
     font-weight: 600;
     color: var(--text-dark);
 }
+
+@media (width > 540px) {
+    .special__grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (width > 768px) {
+    .special__grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+/* Explore Section */
+
+.explore__container {
+    display: grid;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.explore__image img{
+    max-width: 400px;
+    margin-inline:auto ;
+    filter: drop-shadow(0 0 50px rgba(225,127,9,0.4));
+}
+
+.explore__container .section__description{
+    margin-bottom: 2rem;
+}
+
+.explore__btn{
+    text-align: center;
+}
