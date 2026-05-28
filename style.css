@@ -452,7 +452,7 @@ nav {
 }
 
 
-@media (width> 884px) {
+@media (width > 1024px) {
     .banner__container{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -541,3 +541,27 @@ nav {
     color: #185adb;  
 }
 
+@media (width > 768px) {
+    .chef__container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .chef__image{
+        grid-area: 1/2/2/3;
+    }
+
+    .chef__content :is(.section__header, .section__description){
+        text-align: left;
+    }
+
+    .chef__list li{
+        justify-content: flex-start;
+    }
+}
+
+@media (width > 1024px) {
+    .chef__bg{
+        max-width: 375px;
+    }
+}
