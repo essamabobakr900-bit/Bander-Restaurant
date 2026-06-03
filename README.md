@@ -30,5 +30,3 @@ Provides information for customers to get in touch with the restaurant.
 - CSS3
 - Font Awesome
 - Google Fonts
-
-## Installation
