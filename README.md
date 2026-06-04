@@ -1,28 +1,14 @@
 # Bander Restaurant Website
 
-Welcome to the **Bander Restaurant Website**! This website is designed to provide customers with an easy and enjoyable way to explore our restaurant, discover our delicious menu, check prices, and read customer reviews.
+This Project is a website that reveals a Restaurant service through providing the Menu, Gallery, and the reviews of the costumer about the restaurant.
 
 ## Features
 
-- 🍔 Browse a variety of delicious food and drinks.
-- 📋 View the full restaurant menu with prices.
-- ⭐ Read customer reviews and testimonials.
-- 📱 Responsive design that works on desktop, tablet, and mobile devices.
-- 🎨 Modern and user-friendly interface.
-
-## Pages
-
-### Home
-The homepage introduces visitors to Bander Restaurant and highlights our best dishes and services.
-
-### Menu
-The menu section displays a selection of food and beverages along with their prices, helping customers easily choose their favorite meals.
-
-### Reviews
-Customers can read reviews and feedback from previous visitors, showcasing the quality of our food and service.
-
-### Contact
-Provides information for customers to get in touch with the restaurant.
+Browse a variety of delicious food and drinks, that help you Choose Your favourite dish
+View the full restaurant menu with prices.
+Read customer reviews about the restaurant.
+Responsive design that works on desktop, tablet, and mobile devices. (If you like to view the mobile design, you can zoom in from you disktop).
+Modern and user-friendly interface, can reach you out to your desired section from the top bar.
 
 ## Technologies Used
 
@@ -30,3 +16,6 @@ Provides information for customers to get in touch with the restaurant.
 - CSS3
 - Font Awesome
 - Google Fonts
+
+## Demo link
+https://banderrestaurant.netlify.app/
