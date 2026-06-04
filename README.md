@@ -1,3 +1,4 @@
+<img width="919" height="405" alt="image" src="https://github.com/user-attachments/assets/6c0132ab-d7a8-4633-a36e-8ca3cdab2ec8" />
 # Bander Restaurant Website
 
 This Project is a website that reveals a Restaurant service through providing the Menu, Gallery, and the reviews of the costumer about the restaurant.
@@ -18,4 +19,3 @@ Modern and user-friendly interface, can reach you out to your desired section fr
 
 ## Demo link
 https://banderrestaurant.netlify.app/
-<img width="919" height="405" alt="image" src="https://github.com/user-attachments/assets/3629d5ea-3fc7-4820-a2bf-3026ce9f1651" />
