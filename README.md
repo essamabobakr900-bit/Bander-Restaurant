@@ -11,7 +11,6 @@ Responsive design that works on desktop, tablet, and mobile devices. (If you lik
 Modern and user-friendly interface, can reach you out to your desired section from the top bar.
 
 ## Technologies Used
-
 - HTML5
 - CSS3
 - Font Awesome
@@ -19,3 +18,4 @@ Modern and user-friendly interface, can reach you out to your desired section fr
 
 ## Demo link
 https://banderrestaurant.netlify.app/
+<img width="919" height="405" alt="image" src="https://github.com/user-attachments/assets/3629d5ea-3fc7-4820-a2bf-3026ce9f1651" />
