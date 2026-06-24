@@ -352,6 +352,7 @@ nav {
 
 .explore__btn{
     text-align: center;
+    padding: 3rem;
 }
 
 @media (width > 768px) {
@@ -717,4 +718,7 @@ nav {
     .footer__container{
         grid-template-columns: 2fr repeat(3, 1fr);
     }
+}
+.link{
+    font-size: 2rem;
 }
